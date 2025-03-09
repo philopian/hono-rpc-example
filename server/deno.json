@@ -1,7 +1,9 @@
 {
   "version": "0.0.1",
   "imports": {
-    "hono": "jsr:@hono/hono@^4.7.4"
+    "@hono/zod-validator": "npm:@hono/zod-validator@^0.4.3",
+    "hono": "npm:hono@^4.7.4",
+    "zod": "npm:zod@^3.24.2"
   },
   "tasks": {
     "dev": "deno run --watch --allow-net src/main.ts"
@@ -17,7 +19,11 @@
     "semiColons": false,
     "singleQuote": true,
     "proseWrap": "preserve",
-    "include": ["./src", "./tools"],
+    "include": [
+      "./src",
+      "./tools"
+    ],
     "exclude": []
-  }
+  },
+  "nodeModulesDir": "auto"
 }
