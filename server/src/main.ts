@@ -1,10 +1,6 @@
-import { Hono } from 'hono'
+import { createApp } from './app.ts'
 
-const app = new Hono()
-
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
+const app = createApp()
 
 const PORT = 8484
 Deno.serve({ port: PORT }, app.fetch)
