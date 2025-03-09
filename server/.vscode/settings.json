@@ -17,5 +17,25 @@
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
   },
-  "editor.inlayHints.enabled": "off"
+  "editor.inlayHints.enabled": "off",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#57abd0",
+    "activityBar.background": "#57abd0",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#f8e6f3",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#57abd0",
+    "statusBar.background": "#3595bf",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#57abd0",
+    "statusBarItem.remoteBackground": "#3595bf",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#3595bf",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#3595bf99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#3595bf"
 }
