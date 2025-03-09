@@ -1,0 +1,21 @@
+{
+  "deno.enablePaths": ["./"],
+  "deno.enable": true,
+  "deno.lint": true,
+
+  // Don't format any files by default
+  "editor.formatOnSave": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "editor.inlayHints.enabled": "off"
+}
