@@ -1,5 +1,10 @@
 import { createApp } from './app.ts'
-const app = createApp()
+import type { OpenAPIHono } from '@hono/zod-openapi'
 
-// Get the type of the routes and export it
-export type AppType = typeof app
+export interface AppBindings {
+  Variables: {}
+}
+export type AppOpenAPI = OpenAPIHono<AppBindings>
+
+// Used for for the Hono RPC client
+export type AppType = ReturnType<typeof createApp>

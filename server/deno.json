@@ -1,9 +1,10 @@
 {
   "version": "0.0.1",
   "imports": {
-    "@hono/zod-validator": "npm:@hono/zod-validator@^0.4.3",
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.19.2",
     "hono": "npm:hono@^4.7.4",
-    "zod": "npm:zod@^3.24.2"
+    "zod": "npm:zod@^3.24.2",
+    "~/": "./src/"
   },
   "tasks": {
     "dev": "deno run --watch --allow-net src/main.ts"

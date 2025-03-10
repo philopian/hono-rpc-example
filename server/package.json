@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@hono/client": "^0.0.3",
+		"@scalar/hono-api-reference": "^0.5.183"
+	}
+}

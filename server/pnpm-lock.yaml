@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@hono/client':
+        specifier: ^0.0.3
+        version: 0.0.3
+
+packages:
+
+  '@hono/client@0.0.3':
+    resolution: {integrity: sha512-1TrYdppLelv39uCqevePjKUeyf4AoKYWQ+/qfNtRzY8OPBur78XA1Gtv3Pi08uXT6GOuQN5fi3IFUwMsxnEhcQ==}
+    engines: {node: '>=18'}
+    deprecated: The client feature has been integrated into the Hono core. Please use hono/client instead.
+
+snapshots:
+
+  '@hono/client@0.0.3': {}
